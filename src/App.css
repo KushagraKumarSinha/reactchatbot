@@ -1,0 +1,30 @@
+/* Custom animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .analysis-content {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Form focus effects */
+  .form-control:focus {
+    border-color: #6a11cb !important;
+    box-shadow: 0 0 0 0.25rem rgba(106, 17, 203, 0.25) !important;
+  }
+  
+  /* Button hover effect */
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08) !important;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .container {
+      max-width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
